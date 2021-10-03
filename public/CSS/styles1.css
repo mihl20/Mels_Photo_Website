@@ -1,0 +1,277 @@
+h4 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 17px;
+}
+
+.heading {
+  display: grid;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-family: 'Prompt', sans-serif;
+}
+
+.nav {
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+.home {
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.about {
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.contact {
+  display: inline-block;
+}
+
+.lineBreak {
+  display: flex;
+  border-top: 5px Dotted Black;
+  width: 1140px;
+  margin: auto;
+  /* padding-top: 20px; */
+}
+
+.topNav {
+  font-size: 20px;
+  font-family: 'Prompt', sans-serif;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.middleNav {
+  font-size: 27px;
+  font-family: 'Prompt', sans-serif;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+
+
+.container{
+  background-color: #dfdee0;
+  border: 2px Solid Black;
+  bottom: 0;
+    left: 0;
+    height: 800px;
+    margin: auto;
+    display: flex;
+    position: relative;
+    right: 0;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    width: 100%;
+    margin-bottom: 60px;
+    z-index: 0;
+    border-radius: 20px;
+    /* box-sizing: border-box; */
+}
+
+.img {
+  max-width: 100%;
+}
+
+
+.img-container {
+  width: 90%;
+  margin: auto;
+
+}
+
+.carousel-inner img {
+  margin: auto;
+}
+
+.carousel-control-prev {
+  position: none;
+  left: 2%;
+  justify-content: left;
+  color: Black;
+  z-index: 1;
+}
+
+.carousel-control-next {
+  position: none;
+  right: 2%;
+  justify-content: right;
+  color: Black;
+  z-index: 1;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%4f4f58' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%4f4f58' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.top-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.aboutImg {
+  object-fit: cover;
+  height: 450px;
+  width: 1146px;
+  border: 2px Solid Grey;
+  max-width: 100%;
+}
+
+.item-top {
+ padding: 1%;
+
+}
+
+.p-top {
+ padding-right: 80px;
+ text-align: left;
+ padding-top: 15px;
+ font-size: 19px;
+
+}
+
+.about-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding-right: 40px;
+
+}
+
+.aboutMeimg {
+  height: 200px;
+  object-fit: cover;
+  width: 200px;
+border: 2px Solid Black;
+
+}
+
+.p-middle {
+  text-align: left;
+  padding-top: 15px;
+  font-size: 19px;
+}
+
+.item-bottom {
+  text-align: center;
+}
+
+.header-bottom {
+  padding-top: 20px;
+
+  font-family: 'Birthstone', cursive;
+  font-size: 50px;
+}
+
+.container-fluid{
+  max-width: 65%;
+}
+
+.about-write {
+  text-align: center;
+  padding: 2%;
+  font-family: 'Prompt', sans-serif;
+  color: Black;
+font-size: 25px;
+}
+
+.item {
+  padding-bottom: 2%;
+}
+
+.pricing {
+
+  width: 65%;
+  height: auto;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+.top-header {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 25px;
+}
+
+.body-text {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 18px;
+  color: Black;
+}
+
+/* contact */
+
+
+.outer-form {
+  max-height: 450px;
+  max-width: 1140px;
+  background-color: #dfdee0;
+  overflow: inherit;
+  margin: auto;
+  margin-top: 60px;
+  padding: 50px 80px 40px 80px;
+  border-radius: 20px;
+  border: 2px Solid Black;
+  box-sizing: border-box;
+  margin-bottom: 60px;
+}
+
+.int-5 {
+  margin: auto;
+  padding-left: 70px;
+  padding-right: 70px;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+.form-heading {
+  text-align: center;
+  padding-bottom: 20px;
+  color: Black;
+  font-family: 'Lora', serif;
+}
+
+.contact-padding{
+  margin-top: -25px;
+}
+
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-spc {
+  padding: 40px 50px 40px 50px;
+  font-size: 25px;
+  font-family: 'Prompt', sans-serif;
+  color: Black;
+  text-align: center;
+}
+@media screen and (min-width: 600px) and (max-width: 992px) {
+  .pricing {
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
+}
