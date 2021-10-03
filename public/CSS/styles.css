@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+}
+
+h1 {
+  font-size: 60px;
+  font-family: 'Playfair Display', serif;
+  color: #fff;
+}
+
+h3 {
+  font-size: 30px;
+  font-family: 'Playfair Display', serif;
+  color: #fff;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Unvisited link  */
+a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Visited link    */
+a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Mouse over link */
+a:active {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav {
+  color: #fff;
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+}
+
+.bg {
+  background-image: url("../images/trial7.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.top-right {
+  position: absolute;
+  top: 6%;
+  left: 8%;
+}
+
+.middle {
+  position: absolute;
+  top: 25%;
+  left: 8%;
+  display: block;
+}
+
+.bottom-right {
+  position: absolute;
+  top: 35%;
+  left: 8%;
+}
+
+.portfolio {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.about {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.contact {
+  display: inline-block;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 25px;
+    font-family: 'Noto Serif', serif;
+    color: Black;
+  }
+
+  h3 {
+    font-size: 15px;
+    font-family: 'Noto Serif', serif;
+    color: Black;
+  }
+
+  p {
+    color: Black;
+    font-family: 'Noto Serif', serif;
+  }
+
+  a {
+    color: Black;
+    text-decoration: none;
+  }
+
+  /* Unvisited link  */
+  a:visited {
+    color: Black;
+    text-decoration: none;
+  }
+
+  /* Visited link    */
+  a:hover {
+    color: Black;
+    text-decoration: none;
+  }
+
+  /* Mouse over link */
+  a:active {
+    color: Black;
+    text-decoration: none;
+  }
+
+  /* Selected link   */
+  .nav {
+    color: Black;
+  }
+
+  .bg {
+    background-image: url("../images/trial3.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .top-right {
+    position: absolute;
+    top: 20%;
+    right: 8%;
+    text-align: right;
+    color: Black;
+  }
+
+  .middle {
+    position: absolute;
+    top: 35%;
+    right: 8%;
+    text-align: right;
+    color: Black;
+  }
+
+  .bottom-right {
+    position: absolute;
+    top: 45%;
+    right: 8%;
+    text-align: right;
+    color: Black;
+  }
+
+  .facebook_icon {
+    src: url("images/facebook_black.png");
+  }
+
+  .portfolio {
+    display: inline-block;
+    padding-right: 10px;
+  }
+
+  .about {
+    display: inline-block;
+    padding-right: 10px;
+  }
+
+  .contact {
+    display: inline-block;
+  }
+}
