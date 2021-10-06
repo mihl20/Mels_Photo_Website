@@ -1,9 +1,11 @@
+/* page reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* General Stylings */
 body, html {
   height: 100%;
 }
@@ -58,7 +60,7 @@ a:active {
   position: relative;
 }
 
-.top-right {
+.top-left {
   position: absolute;
   top: 6%;
   left: 8%;
@@ -71,7 +73,7 @@ a:active {
   display: block;
 }
 
-.bottom-right {
+.bottom-left {
   position: absolute;
   top: 35%;
   left: 8%;
@@ -91,6 +93,7 @@ a:active {
   display: inline-block;
 }
 
+/* Different screen sizings */
 @media screen and (max-width: 600px) {
   h1 {
     font-size: 25px;
