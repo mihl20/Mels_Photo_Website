@@ -94,7 +94,7 @@ a:active {
 }
 
 /* Different screen sizings */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 740px) {
   h1 {
     font-size: 25px;
     font-family: 'Noto Serif', serif;
@@ -149,7 +149,7 @@ a:active {
     position: relative;
   }
 
-  .top-right {
+  .top-left {
     position: absolute;
     top: 20%;
     right: 8%;
@@ -165,7 +165,7 @@ a:active {
     color: Black;
   }
 
-  .bottom-right {
+  .bottom-left {
     position: absolute;
     top: 45%;
     right: 8%;

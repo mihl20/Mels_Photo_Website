@@ -1,5 +1,10 @@
+body {
+  margin: auto;
+}
+
 h4 {
   font-size: 30px;
+  letter-spacing: 4px;
 }
 
 p {
@@ -125,9 +130,9 @@ p {
 
 /* About Page */
 
-.container-fluid {
+/* .container-fluid {
   max-width: 65%;
-}
+} */
 
 .about-write {
   text-align: center;
@@ -149,28 +154,36 @@ p {
   max-width: 100%;
 }
 
+.about-body {
+    width: 63%;
+    margin: auto;
+}
+
 .item-top {
-  padding: 1%;
+  width: 100%;
+  margin: auto;
+  text-align: left;
 }
 
 .p-top {
-  padding-right: 80px;
-  text-align: left;
-  padding-top: 15px;
-  font-size: 19px;
+font-size: 19px;
+line-height: 170%;
 }
 
 .p-middle {
   text-align: left;
   padding-top: 15px;
   font-size: 19px;
+  line-height: 170%;
 }
 
 .aboutMeimg {
-  height: 200px;
   object-fit: cover;
-  width: 200px;
+  width: 20%;
   border: 2px Solid Black;
+  float: right;
+  margin-left: 30px;
+  margin-bottom: 30px;
 }
 
 .item-bottom {
@@ -258,4 +271,21 @@ p {
     height: auto;
     margin: auto;
   }
+}
+
+@media screen and (max-width: 740px) {
+
+  .about-body {
+      width: 90%;
+      margin: auto;
+  }
+
+  .aboutMeimg {
+    object-fit: cover;
+    width: 100%;
+    border: 2px Solid Black;
+    margin: 30px auto 40px auto;
+  }
+
+
 }
