@@ -1,5 +1,6 @@
 body {
   margin: auto;
+  min-width: 100%;
 }
 
 h4 {
@@ -275,6 +276,13 @@ line-height: 170%;
 
 @media screen and (max-width: 740px) {
 
+  .lineBreak {
+    display: flex;
+    border-top: 5px Dotted Black;
+    width: 100%;
+    margin: auto;
+  }
+
   .about-body {
       width: 90%;
       margin: auto;
@@ -287,5 +295,19 @@ line-height: 170%;
     margin: 30px auto 40px auto;
   }
 
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .footer-spc {
+    padding: 40px 10px 40px 10px;
+    font-size: 10px;
+    font-family: 'Prompt', sans-serif;
+    color: Black;
+    text-align: center;
+  }
 
 }
