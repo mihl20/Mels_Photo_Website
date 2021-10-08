@@ -127,6 +127,8 @@ p {
   margin: auto;
   padding-top: 60px;
   padding-bottom: 40px;
+  max-width: 95%;
+  width: 60%;
 }
 
 /* About Page */
@@ -149,8 +151,8 @@ p {
 
 .aboutImg {
   object-fit: cover;
-  height: 450px;
-  width: 1146px;
+  height: 500px;
+  width: 100%;
   border: 2px Solid Grey;
   max-width: 100%;
 }
@@ -201,7 +203,7 @@ line-height: 170%;
 /* Pricing Page */
 
 .pricing {
-  width: 65%;
+  width: 63%;
   height: auto;
   margin: auto;
   padding-bottom: 30px;
@@ -217,6 +219,13 @@ line-height: 170%;
   font-size: 18px;
   color: Black;
 }
+
+.card {
+  width: 18rem;
+}
+
+#img1 {display: block;}
+#img2 {display: none;}
 
 /* Contact Form */
 
@@ -316,7 +325,7 @@ line-height: 170%;
 
   .outer-form {
     /* max-height: 450px; */
-    width: 85%;
+    width: 95%;
     background-color: #dfdee0;
     overflow: scroll;
     margin: auto;
@@ -335,6 +344,7 @@ line-height: 170%;
 
   .form-heading {
     text-align: center;
+    padding-top: 20px;
     padding-bottom: 20px;
     color: Black;
     font-family: 'Lora', serif;
@@ -342,4 +352,28 @@ line-height: 170%;
     font-size: 20px;
   }
 
+  .pricing {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding-bottom: 30px;
+  }
+
+  .card {
+    width: 25rem;
+  }
+
+  .top-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    max-width: 95%;
+    width: 95%;
+  }
+
+   #img1 {display: none;}
+   #img2 {display: block;}
 }
