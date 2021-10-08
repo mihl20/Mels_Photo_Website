@@ -75,7 +75,7 @@ p {
 .lineBreak {
   display: flex;
   border-top: 5px Dotted Black;
-  width: 1140px;
+  width: 60%;
   margin: auto;
 }
 
@@ -193,6 +193,7 @@ line-height: 170%;
 
 .header-bottom {
   padding-top: 20px;
+  padding-bottom: 20px;
   font-family: 'Birthstone', cursive;
   font-size: 50px;
 }
@@ -221,7 +222,7 @@ line-height: 170%;
 
 .outer-form {
   max-height: 450px;
-  max-width: 1140px;
+  width: 60%;
   background-color: #dfdee0;
   overflow: inherit;
   margin: auto;
@@ -238,6 +239,7 @@ line-height: 170%;
   padding-bottom: 20px;
   color: Black;
   font-family: 'Lora', serif;
+  letter-spacing: 0.2em;
 }
 
 .int-5 {
@@ -308,6 +310,36 @@ line-height: 170%;
     font-family: 'Prompt', sans-serif;
     color: Black;
     text-align: center;
+  }
+
+  /* Contact Form */
+
+  .outer-form {
+    /* max-height: 450px; */
+    width: 85%;
+    background-color: #dfdee0;
+    overflow: scroll;
+    margin: auto;
+    margin-top: 60px;
+    padding: 4%;
+    border-radius: 20px;
+    border: 2px Solid Black;
+    box-sizing: border-box;
+    margin-bottom: 60px;
+  }
+
+  .form-group {
+    padding-left: -50px;
+    padding-right: -50px;
+  }
+
+  .form-heading {
+    text-align: center;
+    padding-bottom: 20px;
+    color: Black;
+    font-family: 'Lora', serif;
+    letter-spacing: 0.1em;
+    font-size: 20px;
   }
 
 }
