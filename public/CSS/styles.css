@@ -98,13 +98,13 @@ a:active {
   h1 {
     font-size: 25px;
     font-family: 'Noto Serif', serif;
-    color: Black;
+    color: #000000;
   }
 
   h3 {
     font-size: 15px;
     font-family: 'Noto Serif', serif;
-    color: Black;
+    color: #000000;
   }
 
   p {
@@ -113,13 +113,13 @@ a:active {
   }
 
   a {
-    color: Black;
+    color: #000000;
     text-decoration: none;
   }
 
   /* Unvisited link  */
   a:visited {
-    color: Black;
+    color: #000000;
     text-decoration: none;
   }
 
@@ -151,26 +151,30 @@ a:active {
 
   .top-left {
     position: absolute;
-    top: 20%;
-    right: 8%;
-    text-align: right;
-    color: Black;
+    top: 5%;
+    justify-content: center;
+    left: 20%;
+    text-align: center;
+    color: White;
   }
 
   .middle {
     position: absolute;
-    top: 35%;
-    right: 8%;
-    text-align: right;
-    color: Black;
+    top: 17%;
+    left:20%;
+    margin: auto;
+    text-align: center;
+    color: White;
   }
 
   .bottom-left {
     position: absolute;
-    top: 45%;
-    right: 8%;
-    text-align: right;
-    color: Black;
+    top: 85%;
+    bottom: 15%;
+  left: 45%;
+    margin: auto;
+    text-align: center;
+    color: White;
   }
 
   .facebook_icon {

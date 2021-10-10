@@ -44,6 +44,8 @@ margin:auto;
 .navbar-toggler {
     float: none;
     margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 
 }
 
@@ -378,7 +380,7 @@ line-height: 170%;
 
   .carousel-control-next {
     position: none;
-    right: 5%;
+    right: 2%;
     justify-content: right;
     color: Black;
     z-index: 2;
@@ -455,7 +457,7 @@ line-height: 170%;
   }
 
   .pricing {
-    width: 100%;
+    width: 90%;
     height: auto;
     margin: auto;
     padding-bottom: 30px;
