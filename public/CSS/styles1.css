@@ -86,7 +86,7 @@ margin:auto;
   border: 1px Solid Black;
   bottom: 0;
   left: 0;
-  height: 800px;
+  height: 800px;;
   margin: auto;
   display: flex;
   position: relative;
@@ -94,10 +94,10 @@ margin:auto;
   align-items: center;
   justify-content: center;
   top: 0;
-  width: 100%;
+  width: 65%;
   margin-bottom: 60px;
   z-index: 0;
-  border-radius: 20px;
+  /* border-radius: 20px; */
 }
 
 /* Solid line across page */
@@ -112,15 +112,18 @@ margin:auto;
 /* Carousel Features */
 
 .img {
-  max-width: 100%;
-  max-height: 800px;
+  width: 100%;
+  height: 800px;
   object-fit: contain;
+  align-items: center;
+  justify-content: center;
 }
 
 .img-container {
   width: 90%;
   margin: auto;
-
+  align-items: center;
+  justify-content: center;
 }
 
 .carousel-inner img {
@@ -255,42 +258,59 @@ line-height: 170%;
 
 .card {
   width: 18rem;
-  border-radius: 20px;
+  /* border-radius: 20px; */
 }
 
 #img1 {display: block;}
 #img2 {display: none;}
 
+.contact-img {
+  padding-bottom: 60px;
+}
+
 /* Contact Form */
 
 .outer-form {
-  max-height: 450px;
+  max-height: 350px;
   width: 60%;
   background-color: #ebe9ea;
   overflow: inherit;
   margin: auto;
   margin-top: 60px;
   padding: 50px 80px 40px 80px;
-  border-radius: 20px;
+  /* border-radius: 20px; */
   border: 1px Solid Black;
   box-sizing: border-box;
   margin-bottom: 60px;
+  /* overflow: auto; */
 }
 
 .form-heading {
   text-align: center;
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
   color: Black;
   font-family: 'Lora', serif;
+  font-size: 25px;
   letter-spacing: 0.2em;
+  margin-top: -25px;
+  padding-bottom: 10px;
+}
+
+.myform {
+  height: 300px;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  /* padding: 0; */
+
 }
 
 .int-5 {
   margin: auto;
   padding-left: 70px;
   padding-right: 70px;
-  margin-bottom: 2%;
-  margin-top: 2%;
+  /* margin-bottom: 2%;
+  margin-top: 2%; */
 }
 
 /* Footer */
@@ -310,6 +330,13 @@ line-height: 170%;
 }
 
 /* Different Sizings */
+
+@media screen and (min-width: 1200px) {
+
+  .mc {
+    max-width: 60%;
+  }
+}
 
 @media screen and (min-width: 600px) and (max-width: 992px) {
   .pricing {
@@ -344,37 +371,43 @@ line-height: 170%;
   }
 
   .mc {
-    background-color: #ebe9ea;
-    border: 1px Solid Black;
-    /* bottom: 0;
-    left: 0; */
-    margin: auto;
-    display: flex;
-    position: relative;
-    /* right: 0; */
-    align-items: center;
-    justify-content: center;
-    /* top: 0; */
-    width: 98%;
-    height: 400px;
-    margin-bottom: 60px;
-    z-index: 0;
-    border-radius: 20px;
-  }
+   background-color: #ebe9ea;
+   border: 1px Solid Black;
+   bottom: 0;
+   left: 0;
+   margin: auto;
+   display: flex;
+   position: relative;
+   right: 0;
+   align-items: center;
+   justify-content: center;
+   top: 0;
+   width: 98%;
+   height: 400px;
+   margin-bottom: 60px;
+   z-index: 0;
+   /* border-radius: 20px; */
+ }
 
-  .img {
-    /* height: 400px; */
-    max-width: 100%;
-    max-height: 400px;
-    object-fit: contain;
-    z-index: 1;
-  }
+ .img {
+   /* height: 400px; */
+   position: absolute;
+   max-width: 100%;
+   height: 400px;
+   object-fit: contain;
+   z-index: 1;
+ }
 
-  .img-container {
-    width: 100%;
-    /* margin: auto; */
+.carousel-inner {
+  height: 400px;
+}
 
-  }
+ .img-container {
+   width: 100%;
+   height: 400px;
+
+
+ }
 
   .carousel-control-prev {
     position: none;
@@ -404,6 +437,32 @@ line-height: 170%;
   .carousel-inner img {
     /* margin: auto; */
   }
+
+  .carousel-fade .carousel-item {
+	opacity: 0;
+	transition-duration: .6s;
+	transition-property: opacity;
+}
+
+.carousel-fade .carousel-item.active,
+.carousel-fade .carousel-item-next.carousel-item-left,
+.carousel-fade .carousel-item-prev.carousel-item-right {
+	opacity: 1;
+}
+
+.carousel-fade .active.carousel-item-left,
+.carousel-fade .active.carousel-item-right {
+	opacity: 0;
+}
+
+.carousel-fade .carousel-item-next,
+.carousel-fade .carousel-item-prev,
+.carousel-fade .carousel-item.active,
+.carousel-fade .active.carousel-item-left,
+.carousel-fade .active.carousel-item-prev {
+	transform: translateX(0);
+	transform: translate3d(0, 0, 0);
+}
 
   .about-body {
       width: 90%;
@@ -435,17 +494,18 @@ line-height: 170%;
   /* Contact Form */
 
   .outer-form {
-    /* max-height: 450px; */
+    max-height: 400px;
     width: 98%;
     background-color: #dfdee0;
-    overflow: scroll;
+    /* overflow: scroll; */
     margin: auto;
     margin-top: 60px;
     padding: 4%;
-    border-radius: 20px;
+    /* border-radius: 20px; */
     border: 1px Solid Black;
     box-sizing: border-box;
     margin-bottom: 60px;
+    height: 900px;
   }
 
   .form-group {
@@ -455,7 +515,7 @@ line-height: 170%;
 
   .form-heading {
     text-align: center;
-    padding-top: 20px;
+    padding-top: 35px;
     padding-bottom: 20px;
     color: Black;
     font-family: 'Lora', serif;
