@@ -51,6 +51,7 @@ a:active {
   font-size: 20px;
 }
 
+
 .bg {
   background-image: url("../images/trial7.jpg");
   height: 100%;
@@ -96,13 +97,13 @@ a:active {
 /* Different screen sizings */
 @media screen and (max-width: 740px) {
   h1 {
-    font-size: 25px;
+    font-size: 30px;
     font-family: 'Noto Serif', serif;
     color: #000000;
   }
 
   h3 {
-    font-size: 20px;
+    font-size: 23px;
     font-family: 'Noto Serif', serif;
     color: #000000;
   }
@@ -140,6 +141,16 @@ a:active {
     color: Black;
   }
 
+  .mobile {
+    position:absolute;
+    top: 8%;
+    height: 140px;
+    width: 100%;
+    background: rgba(255,255,255, .5) ;
+  }
+
+
+
   .bg {
     background-image: url("../images/trial3.jpg");
     height: 100%;
@@ -151,17 +162,22 @@ a:active {
 
   .top-left {
     position: absolute;
-    top: 5%;
-    left: 23%;
+    top: 10%;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    justify-content: center;
     text-align: center;
     color: White;
   }
 
   .middle {
     position: absolute;
-    top: 20%;
-    left:20%;
+    top: 68%;
+    left: 0px;
+    right: 0px;
     margin: auto;
+    justify-content: center;
     text-align: center;
     color: White;
   }
