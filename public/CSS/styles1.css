@@ -47,6 +47,7 @@ margin:auto;
     margin-top: 20px;
     margin-bottom: 20px;
 
+
 }
 
 /* .navbar-nav.navbar-center {
@@ -77,6 +78,10 @@ margin:auto;
   font-family: 'Prompt', sans-serif;
   padding-left: 50px;
   padding-right: 50px;
+}
+
+.gallery {
+  display: none;
 }
 
 /* Background box for Slideshow */
@@ -335,6 +340,11 @@ line-height: 170%;
   text-align: center;
 }
 
+.fblogo {
+  width: 100%;
+  height: auto;
+}
+
 /* Different Sizings */
 
 @media screen and (min-width: 1200px) {
@@ -374,6 +384,22 @@ line-height: 170%;
     border-top: 1px Solid Black;
     width: 100%;
     margin: auto;
+  }
+
+  .gallery {
+    display: block;
+
+    padding-top: 20px;
+    margin-bottom: -15px;
+  }
+
+  .navbar-collapse {
+    margin-top:-25px;
+  }
+
+  .gallery h2 {
+    font-size: 20px;
+    font-family: 'Prompt', sans-serif;
   }
 
   .mc {
@@ -451,7 +477,7 @@ line-height: 170%;
 
   .carousel-fade .carousel-item {
 	opacity: 0;
-	transition-duration: .6s;
+	transition-duration: 1s;
 	transition-property: opacity;
 }
 

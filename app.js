@@ -19,6 +19,10 @@ app.get("/portfolio", function(req, res) {
   res.render("portfolio");
 });
 
+app.get("/business", function(req, res) {
+  res.render("business");
+});
+
 app.get("/pets", function(req, res) {
   res.render("pets");
 });
