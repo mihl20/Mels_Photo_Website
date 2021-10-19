@@ -304,7 +304,7 @@ a:active {
 
   .bottom-left {
     position: absolute;
-    top: 50%;
+    top: 200px;
     left: 8%;
     margin: auto;
     text-align: left;
@@ -495,7 +495,7 @@ a:active {
 
   .top-left {
     position: absolute;
-    top: 10%;
+    top: 0;
     left: 8%;
     margin: auto;
     justify-content: left;
@@ -505,17 +505,16 @@ a:active {
 
   .middle {
     position: absolute;
-    top: 200px;
+    top: 100%;
     left: 8%;
     margin: auto;
-    justify-content: left;
     text-align: left;
     color: White;
   }
 
   .bottom-left {
     position: absolute;
-    top: 50%;
+    top: 300px;
     left: 8%;
     margin: auto;
     text-align: left;
